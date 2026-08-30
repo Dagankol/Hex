@@ -95,11 +95,20 @@ const sigAlgs = [
 const curves = ["prime256v1", "secp384r1", "secp521r1", "X25519"];
 
 const acceptHeaders = [
-  "*/*",
-  "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-  "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-  "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-  "image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+  '*/*',
+  'image/*',
+  'image/webp,image/apng',
+  'text/html',
+  'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
+  'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
 ];
 
 const acceptLanguages = [
