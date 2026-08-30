@@ -112,12 +112,27 @@ const acceptHeaders = [
 ];
 
 const acceptLanguages = [
-  "en-US,en;q=0.9",
-  "en-GB,en;q=0.8",
-  "en-CA,en;q=0.7",
-  "en-AU,en;q=0.6",
-  "en;q=0.9",
-  "fr-FR,fr;q=0.9,en;q=0.8"
+        'ko-KR',
+        'en-US',
+        'zh-CN',
+        'zh-TW',
+        'ja-JP',
+        'en-GB',
+        'en-AU',
+        'en-GB,en-US;q=0.9,en;q=0.8',
+        'en-GB,en;q=0.5',
+        'en-CA',
+        'en-UK, en, de;q=0.5',
+        'en-NZ',
+        'en-GB,en;q=0.6',
+        'en-ZA',
+        'en-IN',
+        'en-PH',
+        'en-SG',
+        'en-HK',
+        'en-GB,en;q=0.8',
+        'en-GB,en;q=0.9',
+        'en-GB,en;q=0.7',
 ];
 
 const acceptEncodings = [
