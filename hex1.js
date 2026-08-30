@@ -136,11 +136,27 @@ const acceptLanguages = [
 ];
 
 const acceptEncodings = [
-  "gzip, deflate, br",
-  "gzip, deflate",
-  "br, gzip, deflate",
-  "identity",
-  "*"
+  '*',
+  '*/*',
+  'gzip',
+  'gzip, deflate, br',
+  'compress, gzip',
+  'deflate, gzip',
+  'gzip, identity',
+  'gzip, deflate',
+  'br',
+  'br;q=1.0, gzip;q=0.8, *;q=0.1',
+  'gzip;q=1.0, identity; q=0.5, *;q=0',
+  'gzip, deflate, br;q=1.0, identity;q=0.5, *;q=0.25',
+  'compress;q=0.5, gzip;q=1.0',
+  'identity',
+  'gzip, compress',
+  'compress, deflate',
+  'compress',
+  'gzip, deflate, br',
+  'deflate',
+  'gzip, deflate, lzma, sdch',
+  'deflate'
 ];
 
 const referers = [
