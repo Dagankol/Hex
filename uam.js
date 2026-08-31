@@ -525,6 +525,3 @@ function runFlooder() {
 const KillScript = () => process.exit(1);
 
 setTimeout(KillScript, args.time * 10000);
-
-// Credits: ziaadev
-console.log("DDoS Script - Created by ziaadev");
